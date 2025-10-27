@@ -61,7 +61,7 @@ const Chat = ({ socket, username, room, setshowchat }) => {
                   {messagedetails.message}
                 </div>
                 <div className="flex items-center space-x-2 font-semibold text-xs text-gray-600 justify-end">
-                  <div className="font-bold">
+                  <div className="font-bold text-left">
                     {messagedetails.author === username
                       ? "you"
                       : messagedetails.author}
