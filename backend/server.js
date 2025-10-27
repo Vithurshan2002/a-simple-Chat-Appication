@@ -8,7 +8,7 @@ const server = http.createServer(app);
 app.use(cors());
 const io = new Server(server, {
   cors: {
-    origin: "https://simplechat-rjbc.onrender.com/",
+    origin: "https://simplechat-rjbc.onrender.com",  
     methods: ["POST", "GET"],
   },
 });
